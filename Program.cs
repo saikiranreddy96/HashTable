@@ -31,8 +31,19 @@ namespace HashTable
             }
 
             //Display
-            Console.WriteLine("frequency of words: ");
+            Console.WriteLine("Before Removing avoidable word from the phrase");
+
             myMapNode.Display();
+
+            Console.WriteLine("\n----------------------------------------------------\n");
+
+            Console.WriteLine("After Removing avoidable word from the phrase");
+
+            //Removing avoidable
+            myMapNode.Remove(17);
+
+            myMapNode.Display();
+
             Console.ReadLine();
         }
     }
