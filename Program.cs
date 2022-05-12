@@ -34,11 +34,6 @@ namespace HashTable
             Console.WriteLine("frequency of words ");
             myMapNode.Display();
             Console.ReadLine();
-
-
-
-
-
         }
     }
 }
