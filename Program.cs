@@ -11,13 +11,13 @@ namespace HashTable
         static void Main(string[] args)
         {
             //Welcome Message
-            Console.WriteLine("--------Welcome To The Hash Table Program--------");
+            Console.WriteLine("--------Welcome To The Hash Table Program---------\n");
 
             //Variable
             int key = 0;
 
             //Paragraph words assign to array
-            string paragraphPhrase = "To be or not to be";
+            string paragraphPhrase = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             string[] paragraph = paragraphPhrase.Split(' ');
 
             //Object of class MyMapNode
@@ -31,14 +31,9 @@ namespace HashTable
             }
 
             //Display
-            Console.WriteLine("frequency of words ");
+            Console.WriteLine("frequency of words: ");
             myMapNode.Display();
             Console.ReadLine();
-
-
-
-
-
         }
     }
 }
